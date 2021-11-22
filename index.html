@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+	<meta charset="UTF-8">
+	<title>Revista Cruz Diablo</title>
+	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- codigo de colores y estilos escrito por nosotros -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Tipografia openSans -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+</head>
+<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+<body>
+<header>
+	<div class="container">
+		<div class="row top">
+			<!-- en esta linea cambiamos nuestro logo. -->
+			<div class="col-md-4"><a href="#home" data-ancla="home">
+				<img style="border-radius: 20px;" src="images/vdO2cS6aQHeJyOxzEbIU_v9P56QknB1uWG9Xw.jpg" alt="logo" class="logo"></a></div>
+			<div class="col-md-3"></div>
+			<div class="col-md-5">
+				<ul class='botonera'>
+					<li><a href="#nosotros" data-ancla="nosotros">Orígenes</a></li>
+					<li><a href="#servicios" data-ancla="servicios">Rasgos</a></li>
+					<li><a href="#contacto" data-ancla="contacto">Acercate</a></li>
+
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="principal vertical-centered-text" id="home">
+	<div class="col-md-8 cta"><h1>Cruz Diablo</h1> 
+			<h4>Revista de lxs nuevxs escritores de Terror, Fantasía y Ciencia Ficción del Mundo de Habla Hispana</h4>
+			<p>Nacimos para constituirnos en un canal de difusión de la obra de lxs nuevxs escritores del género en el siglo XXI.</p>
+<a  href="https://linktr.ee/revistacruzdiablo" target="_blank" class="btn btn-primary orange">Leé gratis los números de la revista</a>
+
+
+		</div>
+</div>
+
+<div class="nosotros orange" id="nosotros">
+	<div class="container">
+		<h1>Nuestras raíces</h1>
+		<p>"Cruz Diablo" es la nueva revista argentina dedicada exclusivamente a difundir la obra de nuevos escritores argentinos y latinoamericanos de Terror, Fantasía y Ciencia Ficción.<br> ¿Por qué "cruz diablo"? Quisimos nombrarnos con una expresión propia de nuestra tierra que tenga que ver con el sentimiento de miedo hacía lo terrorífico y lo sobrenatural. En el área rioplatense se emplea la expresión "cruz diablo" para conjurar un miedo, especialmente el que se atribuye a poderes malignos y/o sobrenaturales.
+
+</p>
+	</div>
+</div>
+
+
+<div class="container servicios" id="servicios">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Rasgos que nos caracterizan</h1>
+		</div>
+	</div>
+	<div class="row images">
+		<div class="col-md-3">
+			<img src="images/003-fountain-pen-close-up.svg" alt="">
+			<h3>Calidad<br>literaria</h3>
+			<p>Todos los escritos son seleccionados con mucho criterio por nuestro equipo editorial y corregidos si es necesario para que la experiencia de lectura sea de lo mejor.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/004-reading-book.svg" alt="">
+			<h3>Descarga<br> gratuita</h3>
+			<p>Todos nuestros números están disponibles para su descarga gratuita. La idea es satisfacer el ansia de lectura y que nuestrxs autores lleguen a la mayor cantidad de hogares posibles.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/012-living-dead.svg" alt="">
+			<h3>Comunidad</h3>
+			<p>Las almas detrás de esta iniciativa somos, además de lectores, escritores del género. Este hecho nos une en comunidad tanto con lxs integrantes de cada número como con las demás revistas que comparten nuestra visión.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/015-dark-web-1.svg" alt="">
+			<h3>Convocatorias</h3>
+			<p>Realizamos convocatorias literarias constantes para mantener viva la chispa de la creatividad y para dejar abierta la puerta a nuevos, inesperados, talentos.</p>
+		</div>
+	</div>
+	
+</div>
+
+<footer>
+	<div class="container" id="contacto">
+		<div class="row">
+			<div class="col-md-12">
+					<h1>Acercate</h1><br><br>
+
+			</div>
+		</div>
+		<div class="row social">
+		<div class="col-3"></div>	
+					<div class="col-2">
+						<a href="mailto:revistacruzdiablo@gmail.com"><img src="images/001-mail.svg" alt=""></a></div>
+
+					<div class="col-2">
+						<a href="https://www.facebook.com/RevistaCruzDiablo.Terror.Fantasia"  target="_blank"><img src="images/002-facebook-logo.svg" alt=""></a></div>
+
+
+					<div class="col-2">
+						<a target="_blank" href="https://www.instagram.com/revistacruzdiablo/" ><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
+	</div>
+</footer>
+<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script>
+	// A $( document ).ready() block.
+$(document).ready(function() {    
+$('.top a').click(function(e){
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({scrollTop:offset}, 600);
+        return false;
+    });
+
+});
+	
+</script>
+</body>
+</html>
